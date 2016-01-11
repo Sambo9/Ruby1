@@ -26,7 +26,9 @@ class Animal
   end
   def to_s
     @nb = @@history_name.index(@name)+1
-    if (@nb % 10) == 1
+    if (@nb == 11 || @nb == 12 || @nb == 13)
+    "#{@sound}, I am #{@name} of type #{@type} I have 4 legs and I am the #{@@history_name.index(@name)+1} th animal created"
+    elsif (@nb % 10) == 1
     "#{@sound}, I am #{@name} of type #{@type} I have 4 legs and I am the #{@@history_name.index(@name)+1} st animal created"
     elsif (@nb % 10) == 2
     "#{@sound}, I am #{@name} of type #{@type} I have 4 legs and I am the #{@@history_name.index(@name)+1} nd animal created"
