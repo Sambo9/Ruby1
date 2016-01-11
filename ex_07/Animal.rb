@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 class Animal
   attr_reader :legs, :sound
   attr_writer :type
