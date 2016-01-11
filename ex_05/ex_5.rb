@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 user_input = gets.chomp
 while user_input != "quit"
     v = user_input.split
