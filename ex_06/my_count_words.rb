@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 def my_count_words(str)
   arr = str.split
   res = {}
