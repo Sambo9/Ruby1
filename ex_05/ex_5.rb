@@ -1,7 +1,7 @@
 user_input = gets.chomp
 while user_input != "quit"
     v = user_input.split
-    if v.length < 4
+    if v.length == 3
           case v[1]
           when "+"
             puts v[0].to_i + v[2].to_i
