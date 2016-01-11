@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 len = 0
 
 ARGV.each do |arg|
