@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby
+#!/usr/bin/ ruby
 
 user_input = gets.chomp
 while user_input != "quit"
